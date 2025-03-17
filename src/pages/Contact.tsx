@@ -20,20 +20,13 @@ const Contact: React.FC<IContact> = ({ theme }) => {
             </span>
             <a
               className=' flex items-center rounded py-2 px-4 bg-gray-200 dark:text-gray-400 text-gray-700 hover:text-gray-900 dark:hover:text-gray-100 dark:bg-[#1f2937]  transition-all mb-2 text-xs'
-              href='https://github.com/chernyshevartemiy'
+              href='https://github.com/Sanchijamkar'
               target='_blank'
             >
               <SlSocialGithub className='h-4 mr-2' />
               Github
             </a>
-            <a
-              className='flex items-center rounded py-2 px-4 bg-gray-200 transition-all dark:text-gray-400 text-gray-700 hover:text-gray-900 dark:bg-[#1f2937] dark:hover:text-gray-100 text-xs'
-              href='https://discord.com/users/339701172564656128'
-              target='_blank'
-            >
-              <FaDiscord className='h-4 mr-2' />
-              Discord
-            </a>
+            
           </div>
           <div className='flex flex-col'>
             <span className='max-w-[400px] mb-2 font-semibold text-sm'>

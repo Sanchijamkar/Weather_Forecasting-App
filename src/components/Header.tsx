@@ -54,24 +54,14 @@ export const Header: React.FC<IHeader> = ({ theme, setTheme }) => {
           <div className='flex items-center gap-4'>
             <div className='flex space-x-3'>
               <button>
-                <a href='https://github.com/chernyshevartemiy' target='_blank'>
+                <a href='https://github.com/Sanchijamkar' target='_blank'>
                   <SlSocialGithub
                     className='h-5 w-6
         transition-all dark:text-gray-400 text-gray-700 hover:text-gray-900 dark:hover:text-gray-100 cursor-pointer'
                   />
                 </a>
               </button>
-              <button>
-                <a
-                  href='https://discord.com/users/339701172564656128'
-                  target='_blank'
-                >
-                  <FaDiscord
-                    className='h-5
-        transition-all w-6 text-gray-700 dark:text-gray-400 dark:hover:text-gray-100 hover:text-gray-900'
-                  />
-                </a>
-              </button>
+              
               <button
                 className='transition-all'
                 onClick={() => setTheme(!theme)}
